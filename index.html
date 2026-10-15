@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Tobias Imhof · Portfolio</title>
+  <meta name="description" content="Portfolio von Tobias Imhof: Sportfotografie und Videografie." />
+  <!-- Link-Vorschau: Karte mit Bild, wenn der Link per Mail, Messenger oder Teams
+       geteilt wird. Die Adressen muessen absolut sein, sonst findet der Dienst das Bild nicht. -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:site_name" content="Tobias Imhof" />
+  <meta property="og:title" content="Tobias Imhof · Portfolio" />
+  <meta property="og:description" content="Portfolio von Tobias Imhof: Sportfotografie und Videografie." />
+  <meta property="og:url" content="https://tobiasimhof.github.io/Portfolio/" />
+  <meta property="og:image" content="https://tobiasimhof.github.io/Portfolio/assets/og/start.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Weintrauben am Rebstock im Gegenlicht, schwarzweiß" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#1c1c1e" />
+  <!-- Suchmaschinen aussen vor. Zum Auffindbarmachen diese Zeile loeschen. -->
+  <meta name="robots" content="noindex" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <!-- Schrift vorladen: sonst findet der Browser sie erst, wenn das CSS geparst ist. -->
+  <link rel="preload" href="assets/fonts/archivo-wdth-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="site-hd">
+    <div class="hd-in">
+      <a class="brand" href="index.html">Tobias Imhof</a>
+      <nav class="site-nav" aria-label="Bereiche">
+        <a href="fotografie.html">Fotografie</a>
+        <a href="video.html">Videografie</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <section class="hero">
+      <div class="hero-txt">
+        <h1>Tobias Imhof</h1>
+        <p>Sportfotografie für das Portal FuPa und erste eigene Videoarbeiten.</p>
+      </div>
+      <!-- Standbild aus dem Rheinhessen-Clip: Der erste Eindruck soll Bild UND Ton
+           sagen. Kein Mensch im Bild, also auch keine Verwechslung mit dem Bewerber.
+           Die Aufnahmen sind von Pixabay, deshalb steht die Quelle direkt darunter:
+           Fremdes Material wird auf der Seite immer benannt. -->
+      <figure class="hero-img">
+        <img src="assets/img/rheinhessen-trauben.webp"
+             width="576" height="720" fetchpriority="high"
+             alt="Weintrauben am Rebstock im Gegenlicht, schwarzweiß" />
+        <figcaption>Standbild aus „Rheinhessen“ · Aufnahmen: Pixabay</figcaption>
+      </figure>
+    </section>
+
+    <nav class="tiles" aria-label="Bereiche">
+
+      <a class="tile" href="fotografie.html">
+        <span class="tn">Fotografie</span>
+        <span class="td">Sport, Licht und der richtige Moment</span>
+      </a>
+
+      <a class="tile" href="video.html">
+        <span class="tn">Videografie</span>
+        <span class="td">Clips, Schnitt und Grading</span>
+      </a>
+
+    </nav>
+
+  </main>
+
+  <footer class="site-ft">
+    <div class="ft-in">
+      <span>Tobias Imhof · Portfolio</span>
+    </div>
+  </footer>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js').catch(() => {}));
+    }
+  </script>
+
+</body>
+</html>
