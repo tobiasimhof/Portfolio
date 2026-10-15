@@ -1,7 +1,7 @@
 // Offline-Cache für das Portfolio.
 // Bei jeder Veröffentlichung die Versionsnummer erhöhen, damit Geräte
 // automatisch die neue Fassung bekommen.
-const CACHE = 'portfolio-v2';
+const CACHE = 'portfolio-v3';
 const ASSETS = [
   './',
   './index.html',
@@ -10,12 +10,12 @@ const ASSETS = [
   './assets/style.css',
   './assets/fonts/archivo-wdth-latin.woff2',
   './manifest.webmanifest',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/icon-maskable-512.png',
-  './icons/apple-touch-icon.png',
-  './icons/favicon.svg',
-  './icons/favicon-32.png',
+  './icons/icon-192.png?v=2',
+  './icons/icon-512.png?v=2',
+  './icons/icon-maskable-512.png?v=2',
+  './icons/apple-touch-icon.png?v=2',
+  './icons/favicon.svg?v=2',
+  './icons/favicon-32.png?v=2',
   './assets/img/spieltag-schuss-t.webp',
   './assets/img/spieltag-zweikampf-t.webp',
   './assets/img/torwart-jubel-t.webp',

@@ -57,7 +57,7 @@ auf der Startseite eine Zeile „Aufnahmen: Pixabay“.
 
 ## Stand
 
-> Stand nach **v2** (seit v1 getrennt von ColorGrade): Startseite mit Name, einem Satz, dem
+> Stand nach **v3** (seit v1 getrennt von ColorGrade): Startseite mit Name, einem Satz, dem
 > Standbild und zwei Kacheln. Fotografie-Galerie mit sieben Bildern und Lightbox,
 > Videografie mit zwei Clips, 404-Seite, Link-Vorschau, eigene Schrift (Archivo),
 > Icon „PF“. Der Feinschliff-Fahrplan aus der Zeit in `colorgrade` ist durch. Offen
@@ -328,6 +328,7 @@ sagt damit „Bild und Ton“ statt nur „Bild“.
 
 | Version | Was |
 |---------|-----|
+| **v3** | **Installation am Galaxy Tab (Chrome) schlug sofort fehl** („App konnte nicht geöffnet werden“), ColorGrade ließ sich dagegen installieren. Das Manifest an ColorGrade angeglichen, wo es sich unterschied: Name ohne Mittelpunkt („Tobias Imhof Portfolio“), nur die Standard-Kategorie `photo` (`portfolio` gibt es nicht). Dazu hängen alle Icon-Adressen jetzt an `?v=2`, damit Chrome, Service-Worker und Googles Server für die App-Installation garantiert dieselbe PF-Datei sehen und keine alte TI-Fassung aus einem Zwischenspeicher. Ändern sich die Icons wieder, die Zahl hochzählen (Manifest, Seitenköpfe, `ASSETS`). |
 | **v2** | **Icon „PF“ statt „TI“** (Nutzer-Wunsch): Das Portfolio hatte dasselbe Icon wie ColorGrade, am Tablet scheiterte die Installation vermutlich an der alten, gleich aussehenden Verknüpfung. `TEXT` in `scripts/make_icons.py` auf „PF“, alle PNGs und `favicon.svg` neu erzeugt. ColorGrade behält „TI“. Wer das Portfolio schon installiert hat, sieht das neue Icon erst nach Entfernen und neu Hinzufügen. |
 | **v1** | **Eigenes Repo.** Das Portfolio ist aus `colorgrade` (Stand v71) herausgelöst. Übernommen: Startseite, Fotografie, Videografie, 404-Seite, `assets/` ohne das App-Vorschaubild, Icons, beide Skripte. Die Apps-Kachel und der Link „Apps“ im Kopf sind raus, die Startseite hat zwei Kacheln (auch am Rechner nebeneinander, `.tile.wide` entfällt). Die Marke im Kopf heißt jetzt **Tobias Imhof** statt ColorGrade. Satz auf der Startseite ohne die App: „Sportfotografie für das Portal FuPa und erste eigene Videoarbeiten.“ Alle `og:`-Adressen und `<base href>` auf `/Portfolio/`, Cache heißt `portfolio-v1`, Manifest „Tobias Imhof · Portfolio“. |
 
