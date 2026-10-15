@@ -57,10 +57,10 @@ auf der Startseite eine Zeile „Aufnahmen: Pixabay“.
 
 ## Stand
 
-> Stand nach **v1** (Trennung von ColorGrade): Startseite mit Name, einem Satz, dem
+> Stand nach **v2** (seit v1 getrennt von ColorGrade): Startseite mit Name, einem Satz, dem
 > Standbild und zwei Kacheln. Fotografie-Galerie mit sieben Bildern und Lightbox,
 > Videografie mit zwei Clips, 404-Seite, Link-Vorschau, eigene Schrift (Archivo),
-> Icon „TI“. Der Feinschliff-Fahrplan aus der Zeit in `colorgrade` ist durch. Offen
+> Icon „PF“. Der Feinschliff-Fahrplan aus der Zeit in `colorgrade` ist durch. Offen
 > ist nichts, neue Punkte kommen nur noch aus dem Feedback des Nutzers.
 
 > hängen an einem Drehtermin, die Optik nicht. Was am Erscheinungsbild noch offen
@@ -317,7 +317,7 @@ sagt damit „Bild und Ton“ statt nur „Bild“.
 | `assets/fonts/` | Archivo als variable WebFont-Datei (Gewicht und Breite) plus OFL-Lizenz |
 | `manifest.webmanifest` | Manifest |
 | `service-worker.js` | Offline-Cache (Version hier hochzählen) |
-| `icons/` | Icons „TI“ (aus `scripts/make_icons.py` erzeugt) |
+| `icons/` | Icons „PF“ (aus `scripts/make_icons.py` erzeugt, Buchstaben in `TEXT`) |
 | `scripts/make_icons.py` | erzeugt die Icons neu (fontTools, liest die Archivo-Datei) |
 | `scripts/make_photos.py` | macht aus den Originalfotos die WebP-Dateien der Galerie, mit Qualitätsangabe je Bild |
 
@@ -328,6 +328,7 @@ sagt damit „Bild und Ton“ statt nur „Bild“.
 
 | Version | Was |
 |---------|-----|
+| **v2** | **Icon „PF“ statt „TI“** (Nutzer-Wunsch): Das Portfolio hatte dasselbe Icon wie ColorGrade, am Tablet scheiterte die Installation vermutlich an der alten, gleich aussehenden Verknüpfung. `TEXT` in `scripts/make_icons.py` auf „PF“, alle PNGs und `favicon.svg` neu erzeugt. ColorGrade behält „TI“. Wer das Portfolio schon installiert hat, sieht das neue Icon erst nach Entfernen und neu Hinzufügen. |
 | **v1** | **Eigenes Repo.** Das Portfolio ist aus `colorgrade` (Stand v71) herausgelöst. Übernommen: Startseite, Fotografie, Videografie, 404-Seite, `assets/` ohne das App-Vorschaubild, Icons, beide Skripte. Die Apps-Kachel und der Link „Apps“ im Kopf sind raus, die Startseite hat zwei Kacheln (auch am Rechner nebeneinander, `.tile.wide` entfällt). Die Marke im Kopf heißt jetzt **Tobias Imhof** statt ColorGrade. Satz auf der Startseite ohne die App: „Sportfotografie für das Portal FuPa und erste eigene Videoarbeiten.“ Alle `og:`-Adressen und `<base href>` auf `/Portfolio/`, Cache heißt `portfolio-v1`, Manifest „Tobias Imhof · Portfolio“. |
 
 ### Vorgeschichte im Repo `colorgrade` (v45 bis v71)

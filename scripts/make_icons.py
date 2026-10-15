@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Erzeugt Favicon und App-Icons: die Initialen "TI" weiss auf Schwarz.
+"""Erzeugt Favicon und App-Icons: die Buchstaben "PF" (Portfolio) weiss auf Schwarz.
 
 Die Buchstaben kommen als Umrisse direkt aus der Seitenschrift Archivo
 (assets/fonts/archivo-wdth-latin.woff2), damit das Icon genau so aussieht wie
@@ -22,7 +22,7 @@ from fontTools.pens.basePen import BasePen
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT = os.path.join(BASE, "assets", "fonts", "archivo-wdth-latin.woff2")
 
-TEXT = "TI"
+TEXT = "PF"
 BG = (19, 19, 21)        # --bg der Seite
 FG = (242, 242, 244)     # --text der Seite
 WEIGHT = 700             # so fett wie der Name auf der Startseite

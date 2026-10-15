@@ -1,7 +1,7 @@
 // Offline-Cache für das Portfolio.
 // Bei jeder Veröffentlichung die Versionsnummer erhöhen, damit Geräte
 // automatisch die neue Fassung bekommen.
-const CACHE = 'portfolio-v1';
+const CACHE = 'portfolio-v2';
 const ASSETS = [
   './',
   './index.html',
