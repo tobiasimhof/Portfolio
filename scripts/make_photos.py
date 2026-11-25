@@ -25,11 +25,8 @@ BILDER = {
     'b4b04be7-image.jpg': ('spieltag-schuss', False, None),
     'f168ccee-image.jpg': ('spieltag-zweikampf', False, None),
     '912d98e8-image.jpg': ('spieltag-konter', True, None),
-    # Flutlicht mit ISO 6400: mit Qualitaet 82 waere die Datei 448 KB gross,
-    # mit 74 sind es 325 KB. Der Unterschied liegt im Gesichtsband bei im
-    # Mittel 3,9 Helligkeitsstufen, faellt also aufs Korn und nicht auf die
-    # Gesichter.
-    'b6bba7ce-image.jpg': ('mannschaft', True, 74),
+    # Das Mannschaftsfoto (b6bba7ce, Qualitaet 74 wegen ISO 6400) ist seit v5
+    # nicht mehr auf der Seite, Nutzer-Wunsch. Es liegt noch in der Historie.
 }
 
 ZIEL = os.path.join(os.path.dirname(__file__), '..', 'assets', 'img')

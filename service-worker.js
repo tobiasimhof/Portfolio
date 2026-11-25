@@ -1,7 +1,7 @@
 // Offline-Cache für das Portfolio.
 // Bei jeder Veröffentlichung die Versionsnummer erhöhen, damit Geräte
 // automatisch die neue Fassung bekommen.
-const CACHE = 'portfolio-v4';
+const CACHE = 'portfolio-v5';
 const ASSETS = [
   './',
   './index.html',
@@ -27,11 +27,8 @@ const ASSETS = [
   './assets/img/torwart-jubel.webp',
   './assets/img/trainer.webp',
   './assets/img/spielerportraet.webp',
-  './assets/img/mannschaft.webp',
-  './assets/img/match-cut-poster.webp',
-  './assets/img/beat-poster.webp',
   './assets/img/hirte-poster.webp',
-  './assets/img/rheinhessen-trauben.webp'
+  './assets/img/hirte-standbild.webp'
 ];
 
 // GitHub Pages liefert mit `Cache-Control: max-age=600` aus. Der Browser darf

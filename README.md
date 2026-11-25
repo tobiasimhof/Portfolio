@@ -2,12 +2,13 @@
 
 Portfolio von **Tobias Imhof**: Sportfotografie und Videografie. Die Seite ist der Link
 im Lebenslauf für die Bewerbung um eine **Ausbildung zum Mediengestalter Bild und Ton**,
-ein Wechsel aus dem jetzigen Beruf heraus. Die Startseite zeigt den Namen, einen Satz
-aus Fakten, **ein Standbild** und die zwei Kacheln Fotografie und Videografie. Seit v64
-ist es ein **Standbild aus dem Rheinhessen-Clip** (Weintrauben im Gegenlicht,
-schwarzweiß), damit der erste Eindruck „Bild und Ton“ sagt. Die Startseite ist damit
-ganz schwarz und weiß, die Farbe kommt erst auf der Fotografie-Seite. Weil die
-Aufnahmen von Pixabay sind, steht darunter die Quelle.
+ein Wechsel aus dem jetzigen Beruf heraus. **Seit v5 ist die Seite auf eine Bewerbung
+beim SWR zugeschnitten.** Die Startseite zeigt den Namen, einen Satz
+aus Fakten, **ein Standbild** und die zwei Kacheln Fotografie und Videografie. Seit v5
+ist es ein **Standbild aus dem Interview „Der Hirte“** (der Hirte im Interview, Blick
+am Gegenüber vorbei), damit der erste Eindruck „Bild und Ton“ sagt. Weil die Aufnahmen
+von EditStock sind, steht darunter die Quelle. Bis v4 stand dort ein schwarzweißes
+Standbild aus dem Rheinhessen-Clip.
 
 Live unter **https://tobiasimhof.github.io/Portfolio/** (GitHub Pages aus `main`).
 
@@ -20,7 +21,9 @@ Teil der Bewerbungsseite mehr, es gibt keine Apps-Kachel und keinen Link dorthin
 **Regel für das Bild auf der Startseite (v59, aus Nutzer-Feedback):** **Kein einzelner
 Mensch im Bild.** Er wird für den Bewerber selbst gehalten, das hat der Nutzer beim
 Torwartbild aus v58 sofort so gelesen. Von v59 bis v63 stand deshalb ein Zweikampf dort,
-seit v64 die Trauben ohne Menschen.
+von v64 bis v4 die Trauben ohne Menschen. **Ausnahme seit v5, Nutzer-Wunsch:** der Hirte
+aus dem Interview. Ein älterer Mann mit weißem Bart, dazu die Zeile „Standbild aus
+‚Der Hirte‘“: Ihn hält niemand für den Bewerber.
 Und es bleibt **klein** (280 px), sonst wirkt die Seite wie ein reines Fotoportfolio,
 während die Bewerbung auf Mediengestalter Bild **und Ton** läuft.
 
@@ -40,12 +43,13 @@ Spieltagen Bilder. Videografie ist neu und wird gerade erarbeitet. Nachname
 jetziger Beruf und die Ausrüstung über „Nikon D3400, Telezoom" hinaus. Eine
 E-Mail-Adresse braucht die Seite nicht.
 
-**Herkunft des Videomaterials:** Den **Match Cut** hat der Nutzer selbst gedreht. Die
-Aufnahmen im **Rheinhessen-Clip** („Atmosphäre auf den Beat“) sind **von Pixabay**,
-bewusst gutes Material, um Schnitt und Rhythmus zu üben. Auswahl, Schnitt und
-Schwarzweiß sind seine Arbeit. Das steht seit v63 offen auf der Karte, und so bleibt es:
-**Fremdes Material wird auf der Seite immer benannt.** Deshalb trägt auch das Standbild
-auf der Startseite eine Zeile „Aufnahmen: Pixabay“.
+**Herkunft des Videomaterials:** Seit v5 steht nur noch **„Der Hirte“** auf der Seite.
+Die Aufnahmen sind **von EditStock** (Übungsmaterial, laut Lizenz in Reel und auf der
+eigenen Website zeigbar), Auswahl, Schnitt und Ton sind seine Arbeit. Das steht offen
+auf der Karte, und so bleibt es: **Fremdes Material wird auf der Seite immer benannt.**
+Deshalb trägt auch das Standbild auf der Startseite eine Zeile „Aufnahmen: EditStock“.
+Der selbst gedrehte **Match Cut** und der **Rheinhessen-Clip** (Pixabay) sind seit v5
+raus, Nutzer-Wunsch; Dateien und Texte liegen in der Historie (Stand v4).
 
 > **Für Claude / neue Chats:** Diese README ist der aktuelle Projektstand **und**
 > die Arbeitsanleitung. Lies sie zuerst. Vier Regeln sind Pflicht:
@@ -57,9 +61,9 @@ auf der Startseite eine Zeile „Aufnahmen: Pixabay“.
 
 ## Stand
 
-> Stand nach **v4** (seit v1 getrennt von ColorGrade): Startseite mit Name, einem Satz, dem
-> Standbild und zwei Kacheln. Fotografie-Galerie mit sieben Bildern und Lightbox,
-> Videografie mit drei Clips (Aufmacher „Der Hirte“), 404-Seite, Link-Vorschau, eigene Schrift (Archivo),
+> Stand nach **v5** (seit v1 getrennt von ColorGrade): Startseite mit Name, einem Satz, dem
+> Standbild aus „Der Hirte“ und zwei Kacheln. Fotografie-Galerie mit sechs Bildern und Lightbox,
+> Videografie mit einem Clip („Der Hirte“), 404-Seite, Link-Vorschau, eigene Schrift (Archivo),
 > Icon „PF“. Der Feinschliff-Fahrplan aus der Zeit in `colorgrade` ist durch. Offen
 > ist nichts, neue Punkte kommen nur noch aus dem Feedback des Nutzers.
 
@@ -80,9 +84,10 @@ Ausbildung zum Mediengestalter Bild und Ton gesucht wird.
 Sechs Bilder liegen in `assets/img/`. Ganz oben steht seit v53 das **Querformat als
 Aufmacher** ohne Überschrift, darunter drei Abschnitte: **Der Moment** (Schuss,
 Zweikampf), **Die Menschen** (Torwart, Trainer) und **Das Porträt** (Spielerporträt
-allein, `.shots.solo`). Seit v60 folgt darunter **Die Mannschaft** als breites Schlussbild. Lightbox mit
-Pfeiltasten und Escape ist gebaut. Die Fotografie-Seite ist damit **fertig**, sieben
-Bilder.
+allein, `.shots.solo`). Von v60 bis v4 folgte darunter **Die Mannschaft** als breites
+Schlussbild, **seit v5 ist es raus** (Nutzer-Wunsch: in seinen Augen kein schönes Foto).
+Lightbox mit Pfeiltasten und Escape ist gebaut. Die Fotografie-Seite hat damit
+**sechs Bilder** und endet mit dem Porträt.
 
 **Korrektur am alten Plan:** In der README stand, das Mannschaftsfoto solle als 4:5 in
 den Abschnitt „Das Porträt" und dort eine Zweierreihe bilden. Der Nutzer hat es im
@@ -130,7 +135,10 @@ Danach wie alle anderen: Schwarzpunkt unter 12, Weißpunkt über 245, kein Kanal
 2 Prozent am Anschlag, Hautton R minus G zwischen 35 und 40. Beschnitt 16:9 bei einer
 Gruppe, 4:5 bei einem Einzelnen.
 
-**Schritt 3 · Videografie** (Texte seit v48, beide Clips seit v62, **fertig**)
+**Schritt 3 · Videografie** (seit v5 **ein Clip**: „Der Hirte“. Der Einleitungssatz sagt,
+dass der Nutzer manchmal an Projekten arbeitet, um etwas besser zu verstehen, hier wie aus
+Tonebenen und B-Rolls ein fertiges Interview entsteht. Was folgt, ist der Stand von v62
+mit beiden alten Clips und bleibt als Anleitung für neue Clips stehen.)
 Die zwei Übungen sind beschrieben: „Atmosphäre auf den Beat" (Schnitt auf den Takt,
 Zeitlupe) und „Match Cut im Wohnzimmer" (Anschlüsse, allein gedreht). Beide laufen:
 `assets/video/beat.mp4` (9,3 MB) und `assets/video/match-cut.mp4` (5,4 MB), Vorschaubilder
@@ -174,8 +182,8 @@ Schluss das Aufwendige. Abhaken, wenn erledigt:
 2. **Link-Vorschau (Open Graph)**, **erledigt in v66.** Wird ein Link per Mail,
    WhatsApp oder Teams geteilt, erscheint eine Karte mit Bild, Titel und Satz. Jede
    Seite hat ihr eigenes Bild in `assets/og/` (1200 × 630, JPEG, weil nicht jeder
-   Dienst WebP liest): Startseite die Trauben, Fotografie das Laufduell, Videografie
-   die Titeltafel „Rheinhessen“. Alle
+   Dienst WebP liest): seit v5 Startseite das Standbild des Hirten, Fotografie das Laufduell,
+   Videografie das Vorschaubild von „Der Hirte“ (bis v4 Trauben und Titeltafel „Rheinhessen“). Alle
    Adressen absolut auf `https://tobiasimhof.github.io/Portfolio/`, **bei einem neuen
    GitHub-Namen oder einer eigenen Domain müssen alle `og:`-Zeilen mit.** WhatsApp
    merkt sich eine Vorschau lange, wer sie neu sehen will, hängt `?1` an den Link.
@@ -308,7 +316,7 @@ sagt damit „Bild und Ton“ statt nur „Bild“.
 
 | Datei | Zweck |
 |-------|-------|
-| `index.html` | Startseite: Name, ein Satz, ein Standbild, zwei Kacheln |
+| `index.html` | Startseite: Name, ein Satz, ein Standbild (`hirte-standbild.webp`), zwei Kacheln |
 | `fotografie.html` · `video.html` | die Unterseiten |
 | `404.html` | Fehlerseite für falsche Adressen, mit `<base href="/Portfolio/">` |
 | `assets/style.css` | gemeinsames Design aller Seiten |
@@ -328,6 +336,7 @@ sagt damit „Bild und Ton“ statt nur „Bild“.
 
 | Version | Was |
 |---------|-----|
+| **v5** | **Zugeschnitten auf eine Bewerbung beim SWR** (Nutzer-Wunsch). **(1) Videografie:** nur noch „Der Hirte“. „Atmosphäre auf den Beat“ (Rheinhessen) und „Match Cut im Wohnzimmer“ sind raus, samt Videos und Vorschaubildern. Neuer Einleitungssatz: „Manchmal arbeite ich an eigenen Projekten, um bestimmte Dinge besser zu verstehen. Bei dieser Übung habe ich versucht zu verstehen, wie aus verschiedenen Tonebenen und B-Rolls ein fertiges Interview entsteht.“ **(2) Startseite:** Das schwarzweiße Trauben-Standbild ist ersetzt durch ein **Standbild aus dem Interview** (15,5 s, Mund geschlossen, Blick am Gegenüber vorbei, Platz in Blickrichtung), 4:5 aus dem 960 × 540 Clip geschnitten, also **432 × 540** (bei 280 px reicht das bis 1,5fache Pixeldichte, mehr gibt der Clip nicht her), 24 KB. Unterschrift „Standbild aus ‚Der Hirte‘ · Aufnahmen: EditStock“. Kachel Videografie: „Interview, Schnitt und Ton“ statt „Clips, Schnitt und Grading“, auch auf der 404-Seite. **(3) Fotografie:** Das Mannschaftsfoto ist raus, die Seite endet mit dem Porträt. Der Eintrag in `scripts/make_photos.py` ist mit raus. **(4) Link-Vorschau:** `og/start.jpg` zeigt das neue Standbild, `og/video.jpg` das Vorschaubild des Clips statt der Titeltafel „Rheinhessen“; Beschreibung und Bildtexte nachgezogen. Gelöschte Dateien liegen in der Historie (Stand v4). |
 | **v4** | **Dritter Clip „Der Hirte“ als Aufmacher der Videografie-Seite.** Ein ganzes Interview mit B-Roll, J- und L-Cuts und eigener Tonebene (Geräusche, Effekte, Musik), 1:38 min, 960 × 540, 7,6 MB. Aufnahmen von **EditStock** (Übungsmaterial, laut Lizenz darf die Arbeit im Reel und auf der eigenen Website gezeigt werden), die Quelle steht im Text und im Abspann des Clips. Der Canva-Export war schon klein und stark komprimiert, deshalb **nicht neu kodiert**, sondern nur mit `-c copy -movflags +faststart` umgepackt (Videospur bitgleich). Vorschaubild `hirte-poster.webp` aus Sekunde 13 (Interview). Die Karte steht über die volle Breite (`.card.aufmacher`; nicht `.lead`, das ist die Klasse des Einleitungstexts). Match Cut bleibt bewusst: einziges selbst gedrehtes Material. |
 | **v3** | **Installation am Galaxy Tab (Chrome) schlug sofort fehl** („App konnte nicht geöffnet werden“), ColorGrade ließ sich dagegen installieren. Das Manifest an ColorGrade angeglichen, wo es sich unterschied: Name ohne Mittelpunkt („Tobias Imhof Portfolio“), nur die Standard-Kategorie `photo` (`portfolio` gibt es nicht). Dazu hängen alle Icon-Adressen jetzt an `?v=2`, damit Chrome, Service-Worker und Googles Server für die App-Installation garantiert dieselbe PF-Datei sehen und keine alte TI-Fassung aus einem Zwischenspeicher. Ändern sich die Icons wieder, die Zahl hochzählen (Manifest, Seitenköpfe, `ASSETS`). |
 | **v2** | **Icon „PF“ statt „TI“** (Nutzer-Wunsch): Das Portfolio hatte dasselbe Icon wie ColorGrade, am Tablet scheiterte die Installation vermutlich an der alten, gleich aussehenden Verknüpfung. `TEXT` in `scripts/make_icons.py` auf „PF“, alle PNGs und `favicon.svg` neu erzeugt. ColorGrade behält „TI“. Wer das Portfolio schon installiert hat, sieht das neue Icon erst nach Entfernen und neu Hinzufügen. |
